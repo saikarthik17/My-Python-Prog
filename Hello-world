@@ -1,0 +1,14 @@
+#Input
+nam=input("Please enter your name:")
+print("welcome...!","to the python world","Mr/Mrs" , nam)
+home=input("Please enter your hometown:")
+son=input("what songs do you like to listen....???")
+book=input("what kind of books you will read....????")
+game=input("can you please mention a game that you like to play")
+fb=input("are you intrested in using facebook....?")
+per=input("can i know your mark percentage in ug..?")
+
+#Output
+d="{} you are from a nice city {} .Great {} songs will relax your mind.{} books will help to develope your knowledge.playing {} will help to maintain your health .Great you are {} intrested in facebook you have cleared your ug with {} %"
+a=d.format(nam,home,son,book,game,fb,per)
+print(a)          
